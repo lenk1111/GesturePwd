@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">手势解锁</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 设置 -->
+    <string name="personal_center_settings">设置</string>
+    <string name="setting_log_off">注销账号</string>
+    <string name="setting_accept_info">接受推送信息</string>
+    <string name="setting_clear_cache">清除缓存</string>
+    <string name="setting_change_password">修改密码</string>
+    <string name="setting_version_info">版本信息</string>
+    <string name="setting_history">历史记录</string>
+    <string name="setting_hand_signal">手势密码解锁</string>
+    <string name="setting_not_set">未设置</string>
+    <string name="setting_set">修改</string>
+    <!-- 设置  -关于我们 -->
+    <string name="setting_about_us">关于我们</string>
+    <string name="setting_about_us_content">园区一卡通是专门服务于本园区的一款日常类APP</string>
+    <string name="title_activity_left_menu_setting_gesture_pwd_create">LeftMenuSettingGesturePwdCreateActivity</string>
+    <!-- 设置  ->手势密码 -->
+    <string name="setting_gesture_pwd_title">手势密码锁定</string>
+    <string name="setting_gesture_pwd_create">创建手势密码</string>
+    <string name="setting_gesture_pwd_validate_title">验证手势密码</string>
+    <string name="setting_gesture_pwd_drawing">绘制解锁密码</string>
+    <string name="setting_gesture_pwd_drawing_again">请再次绘制解锁密码</string>
+    <string name="setting_gesture_pwd_drawing_inconsistent">与上一次绘制不一致,请重新绘制</string>
+    <string name="setting_gesture_pwd_drawing_success">绘制成功</string>
+    <string name="setting_gesture_pwd_number">最少连接四个点,请重新输入</string>
+    <string name="setting_gesture_pwd_validate">请输入原手势密码</string>
+    <string name="setting_gesture_pwd_validate_error">密码错误</string>
+    <string name="setting_gesture_pwd_forget">忘记密码</string>
+    <string name="title_activity_left_menu_setting_gesture_pwd">LeftMenuSettingGesturePwdActivity</string>
+
+</resources>

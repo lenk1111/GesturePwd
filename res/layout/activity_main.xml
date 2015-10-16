@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        <include layout="@layout/top_bar" />
+    </LinearLayout>
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/setting_bg" >
+        <LinearLayout 
+            android:id="@+id/setting_top_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:paddingLeft="10dp">
+
+            <RelativeLayout
+                android:id="@+id/setting_logout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_log_off"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/setting_text" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/right_arrow_gray" />
+        	</RelativeLayout>
+	        <View 
+		        android:layout_width="match_parent"
+		        android:layout_height="0.1dp"
+		        android:background="@drawable/vertical_bar_gray"   />
+
+        	<RelativeLayout
+        	    android:id="@+id/setting_sms"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="@dimen/setting_item_height" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_accept_info"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/setting_text" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/right_arrow_gray" />
+        	</RelativeLayout>
+        	<View 
+		        android:layout_width="match_parent"
+		        android:layout_height="0.1dp"
+		        android:background="@drawable/vertical_bar_gray"   />
+
+        	<RelativeLayout
+        	    android:id="@+id/setting_cache"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="@dimen/setting_item_height" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_clear_cache"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/setting_text" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/right_arrow_gray" />
+        	</RelativeLayout>
+        </LinearLayout>
+        <View 
+            android:id="@+id/setting_top_item_below_separated"
+	        android:layout_width="match_parent"
+	        android:layout_height="0.1dp"
+	        android:background="@drawable/vertical_bar_gray"
+	        android:layout_below="@+id/setting_top_item"   />
+        <LinearLayout 
+            android:id="@+id/setting_center_item"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:paddingLeft="10dp"
+            android:layout_below="@+id/setting_top_item_below_separated"
+            android:layout_marginTop="10dp"
+            >
+
+        	<RelativeLayout
+        	    android:id="@+id/setting_aboutUs"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="@dimen/setting_item_height" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_about_us"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/setting_text" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/right_arrow_gray" />
+        	</RelativeLayout>
+       	</LinearLayout>
+       	<View 
+            android:id="@+id/setting_center_item_below_separated"
+	        android:layout_width="match_parent"
+	        android:layout_height="0.1dp"
+	        android:background="@drawable/vertical_bar_gray"
+	        android:layout_below="@+id/setting_center_item" />
+	    <LinearLayout 
+	        android:id="@+id/setting_bottom_item" 
+	        android:layout_width="match_parent" 
+	        android:layout_height="wrap_content" 
+	        android:orientation="vertical" 
+	        android:background="@android:color/white" 
+	        android:paddingLeft="10dp" 
+	        android:layout_below="@+id/setting_center_item_below_separated" 
+	        android:layout_marginTop="10dp">
+
+        	<RelativeLayout
+        	    android:id="@+id/setting_change_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_change_password"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/setting_text" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/right_arrow_gray" />
+        	</RelativeLayout>
+        	<View 
+		        android:layout_width="match_parent"
+		        android:layout_height="0.1dp"
+		        android:background="@drawable/vertical_bar_gray"   />
+        	<RelativeLayout
+        	    android:id="@+id/setting_show_info"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/setting_item_height" >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_version_info"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/setting_text" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/right_arrow_gray" />
+        	</RelativeLayout>
+        	<View 
+		        android:layout_width="match_parent"
+		        android:layout_height="0.1dp"
+		        android:background="@drawable/vertical_bar_gray"   />
+
+        	<RelativeLayout
+        	    android:id="@+id/setting_history"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="@dimen/setting_item_height" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_history"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/setting_text" />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/right_arrow_gray" />
+        	</RelativeLayout>
+        	<View 
+		        android:layout_width="match_parent"
+		        android:layout_height="0.1dp"
+		        android:background="@drawable/vertical_bar_gray"   />
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="match_parent" 
+	        android:layout_height="match_parent"
+	        android:layout_below="@+id/setting_bottom_item"
+	        android:orientation="vertical"
+	        android:background="@android:color/white">
+
+        	<RelativeLayout
+        	    android:id="@+id/setting_guesture"
+        	    android:layout_width="match_parent"
+        	    android:layout_height="@dimen/setting_item_height"
+        	    android:layout_marginLeft="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_hand_signal"
+                    android:textColor="@color/setting_text_color"
+                    android:textSize="@dimen/setting_text" />
+                <TextView
+                    android:id="@+id/setting_gesture_pwd_state_tv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="@string/setting_not_set"
+                    android:textColor="@color/setting_not_set_text_color"
+                    android:textSize="@dimen/setting_text"
+                    android:layout_toLeftOf="@+id/setting_not_set_right_img"
+                    android:layout_marginRight="12dp" />
+                <ImageView
+                    android:id="@+id/setting_not_set_right_img"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:contentDescription="@null"
+                    android:src="@drawable/right_arrow_gray" />
+        	</RelativeLayout>
+        	<View 
+		        android:layout_width="match_parent"
+		        android:layout_height="0.1dp"
+		        android:background="@drawable/vertical_bar_gray"   />
+	    </LinearLayout>
+    
+    </RelativeLayout>
+    
+</LinearLayout>

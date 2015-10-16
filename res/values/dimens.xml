@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+	<!-- 设置 -->
+    <dimen name="setting_text">16sp</dimen>
+    <dimen name="setting_item_height">48dp</dimen>
+    <dimen name="setting_show_info_text">18sp</dimen>
+    <dimen name="activity_word_text_18">18sp</dimen>
+	<dimen name="activity_word_text_16">16sp</dimen>
+    <!-- 设置 手势解锁 上方小圆环之间间隔 -->
+	<dimen name="setting_gesture_pwd_spacing_medium">6dp</dimen>
+</resources>

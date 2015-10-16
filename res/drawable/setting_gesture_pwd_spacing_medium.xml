@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 设置 手势解锁 上方小圆环之间间隔 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:shape="rectangle">  
+  
+    <size  
+        android:width="@dimen/setting_gesture_pwd_spacing_medium"  
+        android:height="@dimen/setting_gesture_pwd_spacing_medium" />  
+  
+    <solid android:color="@android:color/transparent" />  
+  
+</shape>  

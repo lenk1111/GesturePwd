@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="top_bar_bg">#00aed9</color>
+    <color name="setting_bg">#f0f0f0</color>
+    <color name="setting_text_color">#595959</color>
+    <color name="setting_not_set_text_color">#8c8c8c</color>
+    <color name="activity_gray_bg">#f0f0f0</color>
+    <color name="bottom_bar_icon_gray">#666666</color>
+    <!-- 设置 手势密码 环形解锁颜色 -->
+    <color name="setting_gesture_pwd_ring_not_selected">#818181</color>
+    <color name="setting_gesture_pwd_ring_selected">#59aec3</color>
+    <color name="setting_gesture_pwd_ring_internal_selected">#1aa4c9</color>
+</resources>
